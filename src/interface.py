@@ -28,25 +28,25 @@ class Interface:
                     print("Ha ganado ${}".format(acumulado))
                     break
 
-            print("Pregunta por: ${}".format(premio))
+            print("Pregunta por: ${}\n".format(premio))
             base_datos = BaseDatos()
             pregunta = base_datos.seleccionar_pregunta(ronda)
-            print(pregunta.sentencia)
+            print(pregunta.sentencia + '\n')
             print("a. "+pregunta.opciones[0])
             print("b. "+pregunta.opciones[1])
             print("c. "+pregunta.opciones[2])
-            print("d. "+pregunta.opciones[3])
-            self.respuesta_participante = input("Respuesta definitiva: ")
+            print("d. "+pregunta.opciones[3]+"\n")
+            self.respuesta_participante = input("Respuesta definitiva: \n")
             if pregunta.respuesta[0] == self.respuesta_participante:
-                print("Muy Bien! (っ▀¯▀)つ ")
+                print("Muy Bien! (っ▀¯▀)つ \n")
                 acumulado = acumulado+premio
                 self.jugador.puntos = acumulado
                 if ronda == 5:
                     print("Eres el feliz ganador!\n")
                     print("Total ganado: ", acumulado)
                 else:
-                    print("Sige!, solo llevas: ", acumulado)
+                    print("Sige!, solo llevas: \n", acumulado)
             else:
-                print("Perdiste! (╯°□°）╯︵ ┻━┻ ")
+                print("Perdiste! (╯°□°）╯︵ ┻━┻ \n")
                 break
         self.jugador.almacenar_historial()

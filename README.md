@@ -3,7 +3,7 @@ Reto de entrenamiento sofka
 
 
 ![Diagrama UML planteado]
-(https://github.com/AlbertUSCO/reto-sofka-2022/blob/main/resources/UML.png)
+(/resources/UML.png)
 
 Si quieres empezar el juego 
 
