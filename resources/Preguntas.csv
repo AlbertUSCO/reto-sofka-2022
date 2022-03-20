@@ -1,26 +1,26 @@
-categoria;Id;pregunta;a;b;c;d;respuesta
-1;1;Que dia se celebra la independencia de Colombia?;20 de julio;7 de agosto;11 de noviembre;24 de mayo;a
-1;2;Cuál es el país con más habitantes del mundo?;Colombia;China;Rusia;Chile;b
-1;3;Cuál es el edificio más alto del mundo?;Torre Colpatria;Torre de Sganghai;Burj Khalifa;One World Trade Center;c
-1;4;Dónde está Transilvania?;Rumania;Rusia;Polonia;Alemania;a
-1;5;Cuál es el país con menos habitantes del mundo?;España;Italia;Venezuela;Vaticano;d
-2;1;Cómo se llaman las partículas elementales sin masa que componen la luz?;Fotones;Electrones;Neutrones;Ninguna;a
-2;2;Qué carga tienen los electrones?;Positiva;Negativa;Neutra;Sin carga;b
-2;3;Cuál es la unidad de temperatura en el sistema internacional de unidades?;Celsius;Kelvin;Fahrenheit;Rankine;b
-"2;4;Según la Segunda Ley de Newton, ¿a qué es proporcional la fuerza??;Velocidad;Aceleracion;Peso;Materia;b"
-2;5;Cuál es la unidad de la masa en el sistema internacional?;Onza;Tonelada;Gramo;Kilogramo;d
-3;1;Qué pájaro pone el huevo más pequeño? ;Colibri;Aguila;Azulejo;Cuervo;a
-3;2;Cuál es el pez más grande del mundo;Tiburon ballena;Ballena azul;Calamar gigante;Pirarucu;a
-3;3;Qué especie de monos es la más pequeña?;Titi;Macaco;Mandril;Chimpance;a
-3;4;Cuál es el mamífero más rápido del mundo?;Raton;Guepardo;Perro;Caballo;b
-3;5;Cuál es el felino más grande del mundo?;Leon;Gato montes;Tigre;Pantera;c
-4;1;Quién escribió La Odisea?;Dante Alighieri;Gabriel Garcia marques;Mario Benedeti;Homero;d
-4;2;Escritor Estadounidence autor de el cuervo?;Truman Capote;Mark Twain;Stephen King;Edgar Allan Poe;d
-4;3;Cual es la obra mas importante del Poeta Italiano Dante Alighieri?;El mago de Oz;El viejo y el mar;La divina comedia;Hamblet;c
-4;4;Escribio Historia general de las indias?;Gonzalo Fernández de Oviedo;Francisco Pizarroe;Bartolomé de las Casas;Hernán Cortésr;c
-4;5;Quien escribio de la nobela La fiesta del chivo?;Mario Vargas Llosa;Gabriel García Márquez;Antoine Lavoisier;Patricia Llosa;a
-5;1;Cual es el actor principal de Forrest Gump?;Johnny Depp;Tom Hanks;Brad Pitt;Tom Cruise;b
-5;2;En que año se estreno la pelicula Matrix?;1999;2000;1998;2001;a
-5;3;Cuál es la película más taquilllera de la historia?;Avatar;Avengers endgame;Matrix2;Spider-man 3;b
-"5;4;Quién dirigió la trilogía original de la saga Star Wars?"";Martin Scorsese;George Lucas;Steven Spielberg;J. J. Abrams;b"
-5;5;Qué actor interpretó al mago Gandalf en la trilogía de El Señor de los anillos?;Elijah Wood;Ian Mckellen;Sean Astin;John Rhys-Davies;b
+"categoria,Id,pregunta,a,b,c,d,respuesta"
+"1,1,Que dia se celebra la independencia de Colombia?,20 de julio,7 de agosto,11 de noviembre,24 de mayo,a"
+"1,2,Cuál es el país con más habitantes del mundo?,Colombia,China,Rusia,Chile,b"
+"1,3,Cuál es el edificio más alto del mundo?,Torre Colpatria,Torre de Sganghai,Burj Khalifa,One World Trade Center,c"
+"1,4,Dónde está Transilvania?,Rumania,Rusia,Polonia,Alemania,a"
+"1,5,Cuál es el país con menos habitantes del mundo?,España,Italia,Venezuela,Vaticano,d"
+"2,1,Cómo se llaman las partículas elementales sin masa que componen la luz?,Fotones,Electrones,Neutrones,Ninguna,a"
+"2,2,Qué carga tienen los electrones?,Positiva,Negativa,Neutra,Sin carga,b"
+"2,3,Cuál es la unidad de temperatura en el sistema internacional de unidades?,Celsius,Kelvin,Fahrenheit,Rankine,b"
+"2,4,Según la Segunda Ley de Newton, ¿a qué es proporcional la fuerza??,Velocidad,Aceleracion,Peso,Materia,b"
+"2,5,Cuál es la unidad de la masa en el sistema internacional?,Onza,Tonelada,Gramo,Kilogramo,d"
+"3,1,Qué pájaro pone el huevo más pequeño? ,Colibri,Aguila,Azulejo,Cuervo,a"
+"3,2,Cuál es el pez más grande del mundo?,Tiburon ballena,Ballena azul,Calamar gigante,Pirarucu,a"
+"3,3,Qué especie de monos es la más pequeña?,Titi,Macaco,Mandril,Chimpance,a"
+"3,4,Cuál es el mamífero más rápido del mundo?,Raton,Guepardo,Perro,Caballo,b"
+"3,5,Cuál es el felino más grande del mundo ?,Leon,Gato montes,Tigre,Pantera,c"
+"4,1,Quién escribió La Odisea ?,Dante Alighieri,Gabriel Garcia marques,Mario Benedeti,Homero,d"
+"4,2,Escritor Estadounidence autor de el cuervo?,Truman Capote,Mark Twain,Stephen King,Edgar Allan Poe,d"
+"4,3,Cual es la obra mas importante del Poeta Italiano Dante Alighieri?,El mago de Oz,El viejo y el mar,La divina comedia,Hamblet,c"
+"4,4,Escribio Historia general de las indias?,Gonzalo Fernández de Oviedo,Francisco Pizarroe,Bartolomé de las Casas,Hernán Cortésr,c"
+"4,5,Quien escribio de la nobela La fiesta del chivo?,Mario Vargas Llosa,Gabriel García Márquez,Antoine Lavoisier,Patricia Llosa,a"
+"5,1,Cual es el actor principal de Forrest Gump?,Johnny Depp,Tom Hanks,Brad Pitt,Tom Cruise,b"
+"5,2,En que año se estreno la pelicula Matrix?,1999,2000,1998,2001,a"
+"5,3,Cuál es la película más taquilllera de la historia?,Avatar,Avengers endgame,Matrix2,Spider-man 3,b"
+"5,4,Quién dirigió la trilogía original de la saga Star Wars?"",Martin Scorsese,George Lucas,Steven Spielberg,J. J. Abrams,b"
+"5,5,Qué actor interpretó al mago Gandalf en la trilogía de El Señor de los anillos?,Elijah Wood,Ian Mckellen,Sean Astin,John Rhys-Davies,b"

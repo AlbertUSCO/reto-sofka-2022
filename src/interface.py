@@ -1,5 +1,6 @@
 from base_datos import BaseDatos
 from utilidades import Utilidades
+from jugador import Jugador
 
 inicial = 100
 histParticipantes = []
@@ -10,7 +11,7 @@ class Interface:
         self.jugador = jugador
 
     def mostrar_jugador(self) -> None:
-        print("Hola" + self.jugador.nombre)
+        print("Hola " + self.jugador.nombre)
 
     def comenzar_juego(self) -> None:
         acumulado = 0
@@ -31,10 +32,10 @@ class Interface:
             base_datos = BaseDatos()
             pregunta = base_datos.seleccionar_pregunta(ronda)
             print(pregunta.sentencia)
-            print("a. "+pregunta.opciones_pregunta[0])
-            print("b. "+pregunta.opciones_pregunta[1])
-            print("c. "+pregunta.opciones_pregunta[2])
-            print("d. "+pregunta.opciones_pregunta[3])
+            print("a. "+pregunta.opciones[0])
+            print("b. "+pregunta.opciones[1])
+            print("c. "+pregunta.opciones[2])
+            print("d. "+pregunta.opciones[3])
             self.respuesta_participante = input("Respuesta definitiva: ")
             if pregunta.respuesta[0] == self.respuesta_participante:
                 print("Muy Bien! (っ▀¯▀)つ ")
@@ -48,4 +49,4 @@ class Interface:
             else:
                 print("Perdiste! (╯°□°）╯︵ ┻━┻ ")
                 break
-        self.jugador.almacenas_historial()
+        self.jugador.almacenar_historial()

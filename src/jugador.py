@@ -1,5 +1,5 @@
-import datetime
 import csv
+from datetime import datetime
 import pandas as pd
 from utilidades import Utilidades
 
@@ -16,8 +16,8 @@ class Jugador:
     def actualizar(self):
         print('Nombre: {}  Puntuacion: {}'.format(self.nombre, self.puntos))
 
-    def almacenas_historial(self):
-        with open('D:\\Documents\\MinTic\\Sofka\\reto-sofka-2022\\resources\\Historial.csv', 'a+', encoding='UTF8', newline='') as historial:
+    def almacenar_historial(self):
+        with open('..\\resources\\Historial.csv', 'a+', encoding='UTF8', newline='') as historial:
             writer = csv.writer(historial)
 
             writer.writerow(
@@ -27,7 +27,7 @@ class Jugador:
     def historial_juego(self):
 
         historial_general = pd.read_csv(
-            "D:\\Documents\\MinTic\\Sofka\\reto-sofka-2022\\resources\\Historial.csv", sep=',')
+            "..\\resources\\Historial.csv", sep=',')
         ver_historial_gral = input(
             "Desea ver el historial general? 1.Si  2.No\n")
         ver_historial_gral = Utilidades.es_numerico(ver_historial_gral)

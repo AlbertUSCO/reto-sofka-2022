@@ -4,7 +4,7 @@ from typing import List
 class Pregunta:
 
     def __init__(self, ronda: int = 0, sentencia: str = None, opciones: List[str] = None, respuesta: str = None) -> None:
-        self.rondas = ronda
+        self.ronda = ronda
         self.sentencia = sentencia
         self.opciones = opciones
         self.respuesta = respuesta
