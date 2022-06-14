@@ -7,7 +7,7 @@ from preguntas import Pregunta
 class BaseDatos:
 
     def __init__(self) -> None:
-        self.base_datos = pd.read_csv('..\\resources\\Preguntas.csv', sep=';')
+       self.base_datos = pd.read_csv('..\\resources\\Preguntas.csv', sep=';', encoding='utf8')
 
     def filtrar_por_ronda(self, ronda: int):
         return self.base_datos[self.base_datos['categoria'] == ronda]
